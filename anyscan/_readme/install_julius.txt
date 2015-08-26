@@ -1,0 +1,25 @@
+EdisonにJuliusのインストールが必要です。
+
+(1)必要なライブラリをEdisonにインストール
+$ opkg install alsa-dev
+$ opkg install alsa-lib-dev
+
+(2)Julius最新版をダウンロードしてきて展開
+※julius最新版の置き場所に移動して
+$ tar xvzf ./julius-4.3.1.tar.gz
+
+(3)configure
+Edisonではmictypeにalsaを指定。
+$ cd ./julius-4.3.1
+$ ./configure --with-mictype=alsa
+
+(4)失敗していなければmakeしてinstall
+$ make
+$ make install
+
+(5)使用前にマイクのデバイスIDを調べて指定する必要があります
+$ arecord -l
+※ここでデバイス一覧が出るので使いたいマイクのcardIDと、SubDeviceIDをメモ
+例えばcardIDが2、SubDeviceIDが0だったら
+$ export ALSADEV="plughw:2,0"
+を実行

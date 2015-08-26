@@ -1,0 +1,93 @@
+0	[JUMP]	j a N p u
+0	[JUMP]	j a: N p u
+0	[TOBE]	t o b e
+0	[TOBE]	t o b e:
+0	[TOBE]	t o b e e
+0	[TOBE]	t o b e q e
+0	[TOBUNDA]	t o b u N d a
+0	[DASH]	d a sh u
+0	[DASH]	d a q sh u
+0	[HASHIRE]	h a sh i r e
+0	[HASHIRE]	h a sh i r e:
+0	[YOKERO]	y o k e r o
+0	[KAWASE]	k a w a s e
+0	[NIGERO]	n i g e r o
+0	[MAMORE]	m a m o r e
+0	[FUSEGE]	f u s e g e
+0	[GUARD]	g a: d o
+0	[GUARD]	g a d o:
+0	[BARIYA]	b a r i a
+0	[BARIYA]	b a r i a:
+0	[BARIYA]	b a r i y a
+0	[BARIYA]	b a r i y a:
+1	[PUNCH]	p a N ch i
+1	[PUNCH]	p a N ch i d a
+1	[PUNCH]	p a: N ch i
+1	[PUNCH]	p a: N
+1	[NAGURE]	n a g u r e
+1	[NAGURE]	n a g u r u N
+1	[TATAKE]	t a t a k e
+1	[TATAKE]	t a t a k u
+1	[TATAKE]	t a t a k u N
+1	[KICK]	k i q k u
+1	[KICK]	k i q k u d a
+1	[KICK]	k i k u
+1	[KICK]	k i: k u
+1	[KERE]	k e r e
+1	[KERE]	k e r e:
+1	[KERE]	k e r u
+1	[KERE]	k e r u N
+1	[KERITOBASE]	k e r i t o b a s e
+2	[ANDO]	a N d o
+2	[SOSITE]	s o sh i t e
+2	[KARANONO]	k a r a n o
+3	[SHIRO]	sh i r o
+3	[SHITEKUDASAI]	sh i t e k u d a s a i
+3	[DESU]	d e s u
+4	[MAGIC_A]	f a i y a b o: r u
+4	[MAGIC_A]	f a i y a: b o: r u
+4	[MAGIC_A]	f a i y a: b o:
+4	[MAGIC_A]	f a i a b o: r u
+4	[MAGIC_A]	f a i a: b o: r u
+4	[MAGIC_A]	f a i a: b o:
+4	[MAGIC_A]	a b o: r u
+4	[MAGIC_A]	a b o u r u
+4	[MAGIC_A]	b o: r u
+4	[MAGIC_A]	b o u r u
+4	[MAGIC_B]	f u r e i m u b a: s u t o
+4	[MAGIC_B]	f u r e i m u b a s u t o
+4	[MAGIC_B]	f u r e i m u b u r a s u t o
+4	[MAGIC_B]	f u r e: m u b a: s u t o
+4	[MAGIC_B]	f u r e: m u b a s u t o
+4	[MAGIC_B]	f u r e: m u b u r a s u t o
+4	[MAGIC_B]	r e: m u b a: s u t o
+4	[MAGIC_B]	r e: m u b a s u t o
+4	[MAGIC_B]	b a: s u t o
+4	[MAGIC_B]	b a s u t o
+4	[MAGIC_B3]	n a g i h a r a e
+4	[MAGIC_C]	b a: n i N g u s u t o r a i k u
+4	[MAGIC_C]	b a: n i N g u t o r a i k u
+4	[MAGIC_C]	b a: n i N s u t o r a i k u
+4	[MAGIC_C]	b a: n i N t o r a i k u
+4	[MAGIC_C]	s u t o r a i k u
+5	[IKE]	i k e
+5	[IKE]	i k e:
+5	[IKE]	i k q e
+5	[SOKODA]	s o k o d a
+5	[FUKITOBE]	f u k i t o b e
+5	[KURAE]	k u r a e
+5	[KURAE]	k u r a e:
+5	[HISSATSU]	h i q s a ts u
+5	[HISSATSU]	h i s a ts u
+5	[SUPER]	s u: p a:
+5	[HYPER]	h a i p a:
+5	[ULTRA]	u r u t o r a
+5	[CHOU]	ch o:
+5	[CHOU]	ch o u
+6	[SYOUKAN]	sh o: k a N
+6	[SYOUKAN]	sh o u k a N
+6	[SYOUKAN]	s o u k a N
+6	[SYOUKAN]	i d e y o
+7	[silB]	silB
+8	[silE]	silE
+9	[sp]	sp

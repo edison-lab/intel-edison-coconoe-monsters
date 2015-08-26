@@ -1,0 +1,57 @@
+## 構文制約ファイル
+## 許される文字：英数字＋アンダースコア(大文字・小文字の区別あり)
+## とりあえずコマンドは3コンボまでとする
+
+# 召喚
+S		: NS_B SUMMONS NS_E
+
+# 魔法攻撃
+S		: NS_B SPEL_FIRE NS_E
+S		: NS_B POW SPEL_FIRE NS_E
+S		: NS_B COM SPEL_FIRE NS_E
+S		: NS_B COM SPEL_FIRE NOISE NS_E
+
+# その他行動系コマンド1コンボ
+S		: NS_B MOVE NS_E
+
+# 物理コマンド1コンボ
+S		: NS_B COM NS_E
+S		: NS_B COM_FIN NS_E
+
+# 物理コマンド2コンボ
+S		: NS_B COM COM NS_E
+S		: NS_B COM COM_FIN NS_E
+S		: NS_B COM_AND COM NS_E
+S		: NS_B COM_AND COM_FIN NS_E
+
+# 物理コマンド3コンボ
+S		: NS_B COM COM COM NS_E
+S		: NS_B COM COM COM_FIN NS_E
+S		: NS_B COM_AND COM COM NS_E
+S		: NS_B COM_AND COM COM_FIN NS_E
+S		: NS_B COM_AND COM_AND COM NS_E
+S		: NS_B COM_AND COM_AND COM_FIN NS_E
+S		: NS_B COM COM_AND COM NS_E
+S		: NS_B COM COM_AND COM_FIN NS_E
+
+# ノイズのみ
+#S		: NS_B IGNORE NS_E
+
+
+# それぞれの定義。ノイズは不要...?
+# 強化系コマンド
+POW : POW_C
+
+# 行動系コマンド
+MOVE : MOVE_C
+MOVE_FIN : MOVE_C FIN
+MOVE_FIN : MOVE_C NOISE FIN
+
+# 物理攻撃コマンド
+COM : COMMAND
+
+# 物理攻撃コマンド+アンド
+COM_AND : COMMAND AND
+
+# 物理攻撃コマンド+末尾
+COM_FIN : COMMAND FIN

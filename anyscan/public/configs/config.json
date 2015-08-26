@@ -1,0 +1,97 @@
+{
+	"micConfigs": {
+		"cardID": 1,
+		"rejectShort": 500,
+		"lv": 3000,
+		"subDeviceID": 0
+	},
+	"scanConfigs": {
+		"detectCorners": {
+			"lt": {
+				"y": 88,
+				"x": 388
+			},
+			"rb": {
+				"y": 770,
+				"x": 1785
+			},
+			"rt": {
+				"y": 76,
+				"x": 1456
+			},
+			"lb": {
+				"y": 784,
+				"x": 69
+			}
+		}
+	},
+	"systemConfigs": {
+		"edisonAddress": "192.168.1.134",
+		"pcAddress": "192.168.0.17",
+		"fileServerPort": 3000,
+		"isDebugMode": true,
+		"oscPort": 3333,
+		"edisonID": "edison02",
+		"loopFPS": 30
+	},
+	"cameraConfigs": {
+		"focus_absolute": {
+			"value": 102,
+			"default": 68,
+			"max": 255,
+			"step": 17,
+			"min": 0
+		},
+		"white_balance_temperature": {
+			"value": 3800,
+			"default": 4000,
+			"max": 6500,
+			"step": 1,
+			"min": 2800
+		},
+		"contrast": {
+			"value": 154,
+			"default": 64,
+			"max": 255,
+			"step": 1,
+			"min": 0
+		},
+		"brightness": {
+			"value": 63,
+			"default": 0,
+			"max": 255,
+			"step": 1,
+			"min": 0
+		},
+		"captureSize": {
+			"width": 1920,
+			"height": 1080
+		},
+		"saturation": {
+			"value": 120,
+			"default": 32,
+			"max": 255,
+			"step": 1,
+			"min": 0
+		},
+		"cardSize": {
+			"width": 1036,
+			"height": 700
+		},
+		"gain": {
+			"value": 65,
+			"default": 165,
+			"max": 255,
+			"step": 1,
+			"min": 0
+		},
+		"cardID": 1,
+		"exposure_absolute": {
+			"value": 321,
+			"default": 166,
+			"max": 2047,
+			"step": 1,
+			"min": 3
+		}
+	}
+}

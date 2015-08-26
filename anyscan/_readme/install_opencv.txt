@@ -1,0 +1,4 @@
+EdisonにOpenCVのインストールが必要です。
+
+(1)必要なライブラリをEdisonにインストール
+$ opkg install opencv-dev

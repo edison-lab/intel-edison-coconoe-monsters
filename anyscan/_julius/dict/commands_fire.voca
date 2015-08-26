@@ -1,0 +1,135 @@
+### 行動系コマンド ###
+% MOVE_C
+# ジャンプ
+JUMP		j a N p u
+JUMP		j a: N p u
+TOBE		t o b e
+TOBE		t o b e:
+TOBE		t o b e e
+TOBE		t o b e q e
+TOBUNDA	 t o b u N d a
+
+# ダッシュ
+DASH		d a sh u
+DASH		d a q sh u
+HASHIRE		h a sh i r e
+HASHIRE		h a sh i r e:
+
+# 避けろ
+YOKERO		y o k e r o
+KAWASE		k a w a s e
+NIGERO		n i g e r o
+
+# バリヤ
+MAMORE		m a m o r e
+FUSEGE		f u s e g e
+GUARD		g a: d o
+GUARD		g a d o:
+BARIYA	b a r i a
+BARIYA	b a r i a:
+BARIYA	b a r i y a
+BARIYA	b a r i y a:
+
+
+### 物理攻撃系コマンド ###
+% COMMAND
+# パンチ
+PUNCH		p a N ch i
+PUNCH		p a N ch i d a
+PUNCH		p a: N ch i
+PUNCH		p a: N
+NAGURE		n a g u r e
+NAGURE		n a g u r u N
+TATAKE		t a t a k e
+TATAKE		t a t a k u
+TATAKE		t a t a k u N
+
+# キック
+KICK		k i q k u
+KICK		k i q k u d a
+KICK		k i k u
+KICK		k i: k u
+KERE		k e r e
+KERE		k e r e:
+KERE		k e r u
+KERE		k e r u N
+KERITOBASE	k e r i t o b a s e
+
+
+### 物理攻撃繋ぎ文字 ###
+% AND
+ANDO			a N d o
+SOSITE		s o sh i t e
+KARANONO	k a r a n o
+
+
+### 終了語彙 ###
+% FIN
+SHIRO					sh i r o
+SHITEKUDASAI	sh i t e k u d a s a i
+DESU					d e s u
+
+### 魔法コマンド(火属性) ###
+% SPEL_FIRE
+MAGIC_A		f a i y a b o: r u
+MAGIC_A		f a i y a: b o: r u
+MAGIC_A		f a i y a: b o:
+MAGIC_A		f a i a b o: r u
+MAGIC_A		f a i a: b o: r u
+MAGIC_A		f a i a: b o:
+MAGIC_A		a b o: r u
+MAGIC_A		a b o u r u
+MAGIC_A		b o: r u
+MAGIC_A		b o u r u
+MAGIC_B		f u r e i m u b a: s u t o
+MAGIC_B		f u r e i m u b a s u t o
+MAGIC_B		f u r e i m u b u r a s u t o
+MAGIC_B		f u r e: m u b a: s u t o
+MAGIC_B		f u r e: m u b a s u t o
+MAGIC_B		f u r e: m u b u r a s u t o
+MAGIC_B		r e: m u b a: s u t o
+MAGIC_B		r e: m u b a s u t o
+MAGIC_B		b a: s u t o
+MAGIC_B		b a s u t o
+MAGIC_B3	n a g i h a r a e
+MAGIC_C		b a: n i N g u s u t o r a i k u
+MAGIC_C		b a: n i N g u t o r a i k u
+MAGIC_C		b a: n i N s u t o r a i k u
+MAGIC_C		b a: n i N t o r a i k u
+MAGIC_C		s u t o r a i k u
+
+
+### 魔法強化系コマンド ###
+% POW_C
+IKE		i k e
+IKE		i k e:
+IKE		i k q e
+SOKODA		s o k o d a
+FUKITOBE		f u k i t o b e
+KURAE			k u r a e
+KURAE			k u r a e:
+HISSATSU	h i q s a ts u
+HISSATSU	h i s a ts u
+SUPER			s u: p a:
+HYPER			h a i p a:
+ULTRA			u r u t o r a
+CHOU			ch o:
+CHOU			ch o u
+
+
+
+### 召喚コマンド ###
+% SUMMONS
+SYOUKAN		sh o: k a N
+SYOUKAN		sh o u k a N
+SYOUKAN		s o u k a N
+SYOUKAN		i d e y o
+
+
+### 無音用エントリ ###
+% NS_B			# 文頭無音
+silB		silB
+% NS_E			# 文末無音
+silE		silE
+% NOISE			# 文中ショートポーズ
+sp		sp
